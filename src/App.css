@@ -309,10 +309,6 @@
   margin: 6% 0 15% 0;
   padding: 3% 5%; 
   cursor: pointer;
-
-  /* iOS Zoom Override */
-  font-size: 16px; 
-  touch-action: manipulation; 
 }
 
 /* The remaining CSS requires no changes */
@@ -321,14 +317,14 @@
   border-radius: 0.3em;
 }
 
-.hover-text {
+/* .hover-text {
   max-width: 0;
   opacity: 0;
   white-space: nowrap;
   overflow: hidden;
   color: #ffffff; 
   transition: max-width 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
-}
+} */
 
 .view-project-button:hover .hover-text {
   min-width: 95%; 
@@ -336,11 +332,11 @@
   margin-right: 10px; 
 }
 
-.view-project-button,
+/* .view-project-button,
 .view-project-button .hover-text,
 .view-project-button .button-title {
-  font-size: 16px; /* Forces iOS to register the target as safe */
-}
+  font-size: 16px; 
+} */
 
 .button-title {
   padding: 0% 2%;
@@ -349,9 +345,9 @@
   max-width: 100%;
 }
 
-.view-project-button:hover .button-title {
+/* .view-project-button:hover .button-title {
   display: none;
-}
+} */
 
 .video-container {
   width: 100%; 
