@@ -19,7 +19,7 @@ function HomePage()
           <a href="https://www.linkedin.com/in/haven-fricke/" target="_blank"><img className="linkedin" src="/linkedin-brands.svg" title="view LinkedIn profile"/></a>
           <a href="https://x.com/havenf_gg" target="_blank"><img className="x-twitter" src="/x-twitter.svg" title="view Twitter / X profile"/></a>
           <a href="mailto:havenfricke@u.boisestate.edu" target="_blank"><img className="email" src="/envelope-solid.svg" title="email me"/></a>
-          <a href="/Haven_Fricke_Resume.pdf" target="_blank"><img className="file" title="view my resume" src="/file.svg"/></a>
+          <a href="/Haven_Fricke_Software_Resume.pdf" target="_blank"><img className="file" title="view my resume" src="/file.svg"/></a>
         </h3>
       </div>
       <div className="home-content">
