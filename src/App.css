@@ -143,7 +143,7 @@
 .info-card{
   background-color: rgb(44, 44, 44);
   padding: 5% 9% 0% 9%;;
-  margin: 1% 5%;
+  margin: 1% 1%;
   border-bottom-right-radius: 1em; 
   border-bottom-left-radius: 1em;
   border-top: solid 2px #646cff;
@@ -153,6 +153,13 @@
 
 /*ICONS*/
 .right-arrow{
+  filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
+  max-width: 13px;
+  margin-right: 0.2em;
+  transition: transform 0.3s ease;
+}
+
+.right-arrow-card-button{
   filter: invert(1) sepia(1) saturate(50) hue-rotate(180deg);
   max-width: 13px;
   margin-right: 0.2em;
@@ -289,21 +296,40 @@
   transform: scale(1.2);
 }
 
-.view-project-button{
+.view-project-button {
   background-color: #1a1a1a;
-  text-align: center;
-  transition: all 1s ease;
+  display: inline-flex; 
+  align-items: center;  
+  transition: all 0.3s ease; 
   border: solid 1px #b6b9ff;
+  border-radius: 2em;
+  width: 100%;
   filter: drop-shadow(0px 0px 2px #eae2ff);
   margin: 6% 0 15% 0;
-  padding: 3%;
+  padding: 3% 5%; /* Adjusted padding for inline-flex layout */
+  cursor: pointer;
 }
 
-.view-project-button:hover{
-  background-color:  #4444dd;
-  transition: all 0.25s ease;
-  transform: scale(1.01);
+.view-project-button:hover {
+  background-color: #4444dd;
   border-radius: 0.3em;
+}
+
+/* Hidden state for the text */
+.hover-text {
+  max-width: 0;
+  opacity: 0;
+  white-space: nowrap; /* Prevents text from wrapping while expanding */
+  overflow: hidden;
+  color: #ffffff; 
+  transition: max-width 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
+}
+
+/* Revealed state for the text */
+.view-project-button:hover .hover-text {
+  min-width: 95%; /* Must be larger than the text width; adjust as needed */
+  opacity: 1;
+  margin-right: 10px; /* Creates spacing between the text and the arrow */
 }
 
 .video-container {
@@ -377,17 +403,18 @@
 }
 
 .modal-title{
-  padding: 0% 6%;
+  padding: 0.5% 6%;
   font-weight:500;
+  text-align: center;
 }
 
 .modal-content {
   background-color: rgb(26, 26, 26);
-  margin: 3% auto;
+  margin: 2% auto;
   padding: 35px;
   border: 1px solid #888;
-  width: 95%;
-  max-height: 87vh; 
+  width: 97%;
+  max-height: 92vh; 
   border-radius: 2px;
   position: relative;
   overflow-y: auto; /* 'auto' is cleaner than 'scroll' as it only shows the scrollbar when needed */
@@ -556,7 +583,7 @@
 .row {
   display: flex;
   justify-content: center;
-  margin: 80px 0;
+  margin: 40px 0;
 }
 
 .row p{
@@ -572,7 +599,7 @@
 .col-2-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 80px 80px;
+  gap: 100px 100px;
   width: 100%;
 }
 
@@ -645,15 +672,14 @@
   .modal-content {
     background-color: rgb(26, 26, 26);
     margin: 5% auto;
-    padding: 20px;
+    padding: 7px;
     border: 1px solid #888;
     width: 90%;
     max-width: 90%;
     min-height: 90vh;
     max-height: 90vh;
     border-radius: 5px;
-    position: relative;
-    max-height: 70vh;    
+    position: relative;   
     overflow-y: scroll;    
   }
 

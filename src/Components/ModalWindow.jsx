@@ -75,7 +75,8 @@ export default function ModalWindow({ modalId, title, children }) {
     <>
       {/* The trigger remains in the regular tree */}
       <div className='view-project-button' ref={openBtnRef} id={`${uniqueId}-trigger`} style={{ cursor: 'pointer' }} title='View' tabIndex={0}>
-        View {title}
+        <span className="hover-text">View Project</span>
+        <img className="right-arrow-card-button" src="/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
       </div>
 
       {/* Render modal using a portal */}
