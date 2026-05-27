@@ -68,7 +68,7 @@ function GameDevPage()
                             <div className='img-wrapper'>
                                 <LazyImage src="unreal-banner.webp"/>
                             </div>
-                            <ModalWindow title={"Prototype Online Multiplayer Game"}>
+                            <ModalWindow title={"Prototype Game"}>
                                 <div className='row'>
                                     <p>
                                         A group project during my time with GIMM at Boise State University. The goal within the group was to learn Unreal Engine 5. Features 
@@ -196,7 +196,7 @@ function GameDevPage()
                             <div className='img-wrapper'>
                                 <LazyImage src="/dx11.jpg"/>
                             </div>
-                            <ModalWindow title={"C++, DirectX 11, and HLSL"}>
+                            <ModalWindow title={"3D Computing"}>
                                 <div className='row'>
                                     <p>
                                         My individual research project done during my senior year at Boise State University while attending GIMM. 
@@ -228,7 +228,7 @@ function GameDevPage()
                             <div className='img-wrapper'>
                                 <LazyImage src="/unity-banner.jpg"/>
                             </div>
-                            <ModalWindow title={"Unity Accessible Text Component"}>
+                            <ModalWindow title={"Unity Component"}>
                                 <div className='row'>
                                     <p>
                                         An algorithm script component for Text Mesh Pro GUI GameObjects in Unity. The algorithm is based on 
@@ -257,7 +257,7 @@ function GameDevPage()
                             <div className='img-wrapper'>
                                 <LazyImage src="/unity-banner.jpg"/>
                             </div>
-                            <ModalWindow title={"Prototype RPG Multiplayer Game"}>
+                            <ModalWindow title={"Prototype Game"}>
                                 <div className='row'>
                                     <p>
                                         This is the second of three prototype iterations in Unity Engine done during my time with GIMM at Boise State University. 
@@ -311,7 +311,7 @@ function GameDevPage()
                             <div className='img-wrapper'>
                                 <LazyImage src="/unity-banner.jpg"/>
                             </div>
-                            <ModalWindow title={"Prototype RPG Multiplayer Game"}>
+                            <ModalWindow title={"Prototype Game"}>
                                 <div className='row'>
                                     <p>
                                         This is the first of three prototype iterations in Unity Engine done during my time with GIMM at Boise State University. It is a code-along
@@ -354,36 +354,6 @@ function GameDevPage()
                                         <LazyImage src="/rpg_9.png"/>
                                         <LazyImage src="/rpg_10.png"/>
                                     </div>  
-                                </div>
-                            </ModalWindow>
-                        </div>
-                        <div className='info-card'>
-                            <h3>
-                                <a target="_blank" href="https://angelscript.hazelight.se/">Unreal Engine</a> + <a target='_blank' href="">AngelScript</a>: 
-                                <br />Soul Incarnate
-                            </h3>
-                            <hr />    
-                            <div className='img-wrapper'>
-                                <LazyImage src="angelscript_unreal.png"/>
-                            </div>
-                            <ModalWindow title={"Soul Incarnate"}>
-                                <div className='row'>
-                                    <p>
-                                        <a href='https://github.com/havenfricke/Soul_Incarnate' target='_blank'>Github Repository Link</a><br />
-                                        Content coming soon!
-                                    </p>
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src=""/>
-                                        <LazyImage src=""/>
-                                    </div>  
-                                </div>
-                                <div className='row'>
-                                    <div className='col-2-grid'>
-                                        <LazyImage src=""/>
-                                        <LazyImage src=""/>
-                                    </div>
                                 </div>
                             </ModalWindow>
                         </div>

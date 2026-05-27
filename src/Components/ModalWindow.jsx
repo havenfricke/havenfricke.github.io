@@ -65,7 +65,7 @@ export default function ModalWindow({ modalId, title, children }) {
   const modalContent = (
     <div ref={modalRef} id={uniqueId} className="modal">
       <div className="modal-content">
-      <span ref={closeBtnRef} className="close" title="close window" tabIndex="0">&times;</span>
+      <div ref={closeBtnRef} className="close" title="close window" tabIndex="0">&times;</div>
           <Project contentName={title} contentBody={children}/>
       </div>
     </div>
@@ -75,8 +75,9 @@ export default function ModalWindow({ modalId, title, children }) {
     <>
       {/* The trigger remains in the regular tree */}
       <div className='view-project-button' ref={openBtnRef} id={`${uniqueId}-trigger`} style={{ cursor: 'pointer' }} title='View' tabIndex={0}>
-        <span className="hover-text">View Project</span>
+        <span className="hover-text">VIEW</span>
         <img className="right-arrow-card-button" src="/arrow-right-solid.svg" alt="Right Arrow" data-skip-on-tab="true"/>
+        <span className='button-title'>{title}</span>
       </div>
 
       {/* Render modal using a portal */}

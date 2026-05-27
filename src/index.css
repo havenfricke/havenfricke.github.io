@@ -50,6 +50,10 @@ p, ol, ul, li, blockquote, pre{
   text-align: start;
 }
 
+span{
+  letter-spacing: 0.3em;
+}
+
 video {
   max-width: 50%;
   margin: auto;

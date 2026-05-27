@@ -51,7 +51,7 @@ function IoTPage()
                             <LazyImage src="/arduino-unity.png" />
                         </div>
     
-                        <ModalWindow title={"Unity Engine + Arduino Joystick Input"}>
+                        <ModalWindow title={"Unity + Arduino"}>
                             <div className='row'>
                                 <p>
                                     Arduino Uno joystick input circuit interoperability with Unity Game Engine. The circuit is designed to be easily integrated into any Unity project and can be used to control game objects in real-time. 
@@ -76,7 +76,7 @@ function IoTPage()
                             <LazyImage src="/arduino.png" />
                         </div>
     
-                        <ModalWindow title={"Arduino: RD-03E mmWave Human Detection"}>
+                        <ModalWindow title={"Arduino Sensor"}>
                             <div className='row'>
                                 <p>
                                     This project utilizes the RD-03E mmWave sensor with an Arduino Uno WiFi R2 to detect human presence and movement. 
@@ -102,7 +102,7 @@ function IoTPage()
                             <LazyImage src="/iot-alexa-node.png" />
                         </div>
     
-                        <ModalWindow title={"Express.js Arduino Sensor Data to Alexa Skill"}>
+                        <ModalWindow title={"IoT Project"}>
                             <div className='row'>
                                 <p>
                                     Prototype express.js application made to receive data from Arduino via microcontroller sensors and send data via Alexa Skill. A group project made in collaboration with other developers to prototype an IoT solution for smart home applications.
@@ -127,7 +127,7 @@ function IoTPage()
                             <LazyImage src="/arduino.png" />
                         </div>
     
-                        <ModalWindow title={"Arduino Project Compilation"}>
+                        <ModalWindow title={"Project Compilation"}>
                             <div className='row'>
                                 <p>
                                     A compilation of basic Arduino code. This collection contains projects with basic I/O capabilities to 

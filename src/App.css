@@ -315,11 +315,10 @@
   border-radius: 0.3em;
 }
 
-/* Hidden state for the text */
 .hover-text {
   max-width: 0;
   opacity: 0;
-  white-space: nowrap; /* Prevents text from wrapping while expanding */
+  white-space: nowrap;
   overflow: hidden;
   color: #ffffff; 
   transition: max-width 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
@@ -330,6 +329,16 @@
   min-width: 95%; /* Must be larger than the text width; adjust as needed */
   opacity: 1;
   margin-right: 10px; /* Creates spacing between the text and the arrow */
+}
+
+.button-title {
+  padding: 0% 2%;
+  text-align: center;
+  width: 100%;
+}
+
+.view-project-button:hover .button-title {
+  display: none;
 }
 
 .video-container {

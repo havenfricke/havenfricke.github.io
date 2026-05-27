@@ -23,7 +23,7 @@ function WebSoftwarePage()
                         <div className='img-wrapper'>
                             <LazyImage src="/python.png"/>
                         </div>
-                        <ModalWindow title={"Python GUI App Starter"}>
+                        <ModalWindow title={"Python GUI App"}>
                             <div className='row'>
                                 <p>
                                    This application is a cross-platform graphical user interface (GUI) built with Python, utilizing OpenGL 
@@ -217,12 +217,12 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3><a target="_blank" href="https://react.dev/">React</a>: Vanilla Scaffold</h3>
+                        <h3><a target="_blank" href="https://react.dev/">React</a>: Scaffold</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/reactvan1.png"/>
                         </div>
-                        <ModalWindow title={"React Vanilla Scaffold"}>
+                        <ModalWindow title={"React Scaffold"}>
                             <div className='row'>
                                 <p>
                                     This GitHub repository is scaffold code that I made for beginning web applications while attending  
@@ -264,7 +264,7 @@ function WebSoftwarePage()
                         <div className='img-wrapper'>
                             <LazyImage src="/reactd31.png"/>
                         </div>
-                        <ModalWindow title={"React + D3 Data Narrative"}>
+                        <ModalWindow title={"Data Narrative"}>
                         <div className='row'>
                                 <p>
                                     React and D3 data visualization libraries combined to create a responsive data narrative. This project
@@ -338,7 +338,7 @@ function WebSoftwarePage()
                         <div className='img-wrapper'>
                             <LazyImage src="/aa1.jpg"/>
                         </div>
-                        <ModalWindow title={"Swift: Assistive App"}>
+                        <ModalWindow title={"Assistive App"}>
                         <div className='row'>
                                 <p>
                                     An iOS application that uses ARKit and peer-to-peer with the goal of assisting people who have non-verbal disabilities. 
@@ -372,7 +372,7 @@ function WebSoftwarePage()
                         <div className='img-wrapper'>
                             <LazyImage src="/pua1.jpg"/>
                         </div>
-                        <ModalWindow title={"Swift: Photo Utility Application"}>
+                        <ModalWindow title={"Photo Utility App"}>
                         <div className='row'>
                                 <p>
                                     Project that uses SwiftData and device permissions to access photos. The intent of the project was to familiarize with SwiftData and
@@ -400,12 +400,12 @@ function WebSoftwarePage()
                     </div>
 
                     <div className='info-card'>
-                        <h3><a target='_blank' href="https://www.swift.org/">Swift</a>: iOS + MVC</h3>
+                        <h3><a target='_blank' href="https://www.swift.org/">Swift</a>: Swift + MVC</h3>
                         <hr />
                         <div className='img-wrapper'>
                             <LazyImage src="/iosmvc1.jpg"/>
                         </div>
-                        <ModalWindow title={"Swift: iOS + MVC"}>
+                        <ModalWindow title={"Swift + MVC"}>
                         <div className='row'>
                                 <p>
                                     Basic Model, View, Controller scaffold iOS application designed as a blueprint for new projects. 
