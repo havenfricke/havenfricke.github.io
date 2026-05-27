@@ -336,10 +336,17 @@
   margin-right: 10px; 
 }
 
+.view-project-button,
+.view-project-button .hover-text,
+.view-project-button .button-title {
+  font-size: 16px; /* Forces iOS to register the target as safe */
+}
+
 .button-title {
   padding: 0% 2%;
   text-align: center;
-  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .view-project-button:hover .button-title {
