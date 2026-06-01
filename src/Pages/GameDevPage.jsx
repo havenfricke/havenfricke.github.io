@@ -37,7 +37,7 @@ function GameDevPage()
                                         <br />
                                         <a href='https://github.com/havenfricke/Open-World-RPG-Prototype' target='_blank'>First Iteration Repository Link</a><br />
                                         <a href='https://github.com/havenfricke/Wary-Path' target='_blank'>Second Iteration Repository Link</a><br />
-                                        <a href='' target='_blank'>Third Iteration Repository Link (Coming Soon)</a><br />
+                                        <a href='https://github.com/havenfricke/TBF_Assets_Folder' target='_blank'>Third Iteration Repository Link</a><br />
                                     </p>
                                 </div>
                                 <div className='row'>
@@ -272,7 +272,7 @@ function GameDevPage()
                                         <a href='https://github.com/havenfricke/Full-Rig-Idle-Humanoid' target='_blank'>Humanoid Model + Rig</a><br />
                                         <a href='https://github.com/havenfricke/Open-World-RPG-Prototype' target='_blank'>First Iteration Repository Link</a><br />
                                         <a href='https://github.com/havenfricke/Wary-Path' target='_blank'>Second Iteration Repository Link</a><br />
-                                        <a href='' target='_blank'>Third Iteration Repository Link (Coming Soon)</a><br />
+                                        <a href='https://github.com/havenfricke/TBF_Assets_Folder' target='_blank'>Third Iteration Repository Link</a><br /><br />
                                     </p>
                                 </div>
                                 <div className='row'>
@@ -323,7 +323,7 @@ function GameDevPage()
                                         <br />
                                         <a href='https://github.com/havenfricke/Open-World-RPG-Prototype' target='_blank'>First Iteration Repository Link</a><br />
                                         <a href='https://github.com/havenfricke/Wary-Path' target='_blank'>Second Iteration Repository Link</a><br />
-                                        <a href='' target='_blank'>Third Iteration Repository Link (Coming Soon)</a><br />
+                                        <a href='https://github.com/havenfricke/TBF_Assets_Folder' target='_blank'>Third Iteration Repository Link</a><br /><br />
                                     </p>
                                 </div>
                                 <div className='row'>
