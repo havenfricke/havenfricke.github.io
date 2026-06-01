@@ -315,7 +315,8 @@ function GameDevPage()
                                 <div className='row'>
                                     <p>
                                         This is the first of three prototype iterations in Unity Engine done during my time with GIMM at Boise State University. It is a code-along
-                                        project that I did for a school assignment. The creator of the content you see in this project is <a>Sebastian Graves</a> who now has
+                                        project that I did for a school assignment. The creator of the content you see in this project is 
+                                        <a href='https://www.youtube.com/@SebastianGraves' target="_blank"> Sebastian Graves</a> who now has
                                         a game on Steam with some of the very features found in this project. This is a good resource for learning Unity's capability and laid 
                                         the foundation for future Unity project design and implementation.
                                         <br />
