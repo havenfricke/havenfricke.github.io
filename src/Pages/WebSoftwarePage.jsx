@@ -552,7 +552,7 @@ function WebSoftwarePage()
                                     Events can be cancelled, deleted, or both.
                                     <br />
                                     <br />
-                                    <a href="https://github.com/havenfricke/Tower" target='_blank'> Mus.io repository</a>
+                                    <a href="https://github.com/havenfricke/Tower" target='_blank'> Tower repository</a>
                                 </p>
                             </div>
                             <div className='row'>
