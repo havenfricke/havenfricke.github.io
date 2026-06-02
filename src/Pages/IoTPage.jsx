@@ -28,12 +28,12 @@ function IoTPage()
                             <div className='row'>
                                 <p>
                                     A Self-paced study into Python's features and syntax from a computer science perspective.
-                                    The goal of this repository is to provide a learning resource for myself and others to learn Python.
-                                    The project separates lessons into "Dojo Sessions" meant to act as code-along material in Python.
-                                    The "Dojo Sessions" include a README file for each module explaining concepts found in each session. 
+                                    The goal of this repository is to provide a learning resource for myself and others to easily pick Python up and start learning the syntax.
+                                    The project separates lessons into "Dojo Sessions" meant to act as code-along material.
+                                    The "Dojo Sessions" include a README file for each module containg useful information. 
                                     Some concepts included in these sessions vary from classes, module imports, basic operators, to data types and more. 
-                                    The latter parts of this education repository are directed with intent for Python for Linux command automation programs
-                                    using the <a href="https://docs.python.org/3/library/subprocess.html" target="_blank" title="subprocess docs">subprocess python library</a> and
+                                    The latter parts of this educational repository are intended for Python use with Linux command automation libraries such as
+                                     <a href="https://docs.python.org/3/library/subprocess.html" target="_blank" title="subprocess docs"> subprocess </a>and
                                     <a href="https://docs.ansible.com/projects/ansible/latest/installation_guide/index.html" target="_blank" title="Ansible docs"> Ansible</a>.
                                     <br />
                                     <br />
