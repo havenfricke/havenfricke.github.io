@@ -51,7 +51,7 @@ p, ol, ul, li, blockquote, pre{
 }
 
 span{
-  letter-spacing: 0.3em;
+  letter-spacing: 0.25em;
 }
 
 video {
@@ -102,13 +102,13 @@ h3{
   font-size: 1.4em;
   line-height: 1.1;
   font-weight: 400;
-  letter-spacing: 0.11em;
+  letter-spacing: 0.12em;
 }
 h4{
   font-size: 1.1em;
   line-height: 1.1;
   font-weight: 350;
-  letter-spacing: 0.11em;
+  letter-spacing: 0.12em;
 }
 
 button {
