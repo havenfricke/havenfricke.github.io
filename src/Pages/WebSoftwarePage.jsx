@@ -17,7 +17,40 @@ function WebSoftwarePage()
 
                     <div className='info-card'>
                         <h3>
-                            <a href="https://www.python.org/" target='_blank'>Python</a> GUI App Starter
+                            <a href="https://learn.microsoft.com/en-us/dotnet/desktop/winforms/overview/" target='_blank'>Windows Forms (C#)</a> GUI App
+                        </h3>
+                        <hr />  
+                        <div className='img-wrapper'>
+                            <LazyImage src="/python.png"/>
+                        </div>
+                        <ModalWindow title={"Windows Forms GUI App"}>
+                            <div className='row'>
+                                <p>
+                                   Single-Page Application (SPA) architecture Windows Forms application designed to establish direct, 
+                                   bidirectional serial communication with an Arduino device. The goal with this project was to explore 
+                                   .NET tools suitable for desktop application development. The challenge was designing the application
+                                   interface to be responsive to data sent and received over serial communication (USB) to and from the Arduino device.
+                                   The UI is largely built in code rather than relying exclusively on the drag-and-drop Windows Forms Designer.
+                                   The application implements several modern design patterns to work around the traditional limitations of Windows Forms, 
+                                   giving it a Single-Page Application (SPA) architecture and is also a great starting point for any new project that 
+                                   involves tooling or interfacing with data using Windows Forms in Visual Studio. 
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/havenfricke/WinForms_GUI_App" target='_blank'>GitHub Repository</a>
+                                </p>
+                            </div>
+                            <div className='row'>
+                                 <MarkdownFile
+                                src="https://raw.githubusercontent.com/havenfricke/WinForms_GUI_App/refs/heads/master/README.md"
+                                className="modal-markdown"
+                                />
+                            </div>
+                        </ModalWindow>
+                    </div>
+
+                    <div className='info-card'>
+                        <h3>
+                            <a href="https://www.python.org/" target='_blank'>Python</a> GUI App
                         </h3>
                         <hr />  
                         <div className='img-wrapper'>
