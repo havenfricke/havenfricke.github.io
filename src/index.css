@@ -176,6 +176,14 @@ em{
     transform: scale(0.9);
   }
 
+  p {
+    font-size: 1em;
+  }
+
+  pre {
+    font-size: 1em;
+  }
+
   video {
     max-width: 90%;
     margin-top: 2%;
