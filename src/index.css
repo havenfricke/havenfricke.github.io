@@ -26,12 +26,12 @@
 
 a {
   font-weight: 500;
-  color: #b7bbff;
+  color: #70afe2;
   text-decoration: inherit;
   cursor: pointer;
 }
 a:hover {
-  color: #646cff;
+  color: #94a8b3;
 }
 
 body {
@@ -58,8 +58,8 @@ video {
   max-width: 50%;
   margin: auto;
   display: flex; 
-  border: #646cff solid 1px;
-  filter: drop-shadow(0 0 10px rgba(100, 108, 255, 0.5));
+  border: #94a8b3 solid 1px;
+  filter: drop-shadow(0 0 10px rgba(100, 219, 255, 0.5));
   border-radius: 1em;
   justify-self: center;
   aspect-ratio: 16 / 9;
@@ -133,7 +133,7 @@ button::after {
   left: 0;
   width: 0; 
   height: 5px;
-  background-color: #646cff;
+  background-color: #94a8b3;
   transition: width 0.25s ease;
 }
 
