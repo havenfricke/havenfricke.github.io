@@ -274,7 +274,7 @@
   align-items: center;  
   transition: all 0.3s ease; 
   border: solid 1px #70afe2;
-  border-radius: 2em;
+  border-radius: 0.1em;
   width: 100%;
   filter: drop-shadow(0px 0px 2px #e2f2ff);
   margin: 6% 0 15% 0;
@@ -284,16 +284,16 @@
 
 /* The remaining CSS requires no changes */
 .view-project-button:hover, .view-project-button:focus {
-  background-color: #94a8b3;
+  background-color: #89a4b3;
   box-shadow: inset 3px 5px 12px 0px rgba(0, 0, 0, 0.75);
-  border-radius: 0.3em;
+  border-radius: 0.5em;
 }
 
 .view-project-button:active {
   background-color: #1a1a1a;
   box-shadow: inset 3px 5px 12px 0px rgba(0, 0, 0, 0.75);
-  filter: drop-shadow(0px 0px 12px #e2f3ff);
-  border-radius: 0.3em;
+  filter: drop-shadow(0px 0px 12px #565657);
+  border-radius: 0.5em;
 }
 
 .view-project-button:hover .button-title{
